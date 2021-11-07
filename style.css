@@ -1,5 +1,17 @@
 main {
+    padding: 15px;
+    width: 100%;
+    }
+    body{
+      background-color: #C0C0C0;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1rem;
+      text-align: center;
+      background-color: rgba(#333333, 0.63);
+    }
 
+    p {
+      text-align: justify;
     }
 
     h1{
@@ -7,25 +19,29 @@ main {
         text-align: center;
     }
 
-    body{
-        font-size: 1rem;
-        text-align: center;
+    h3{
+      font-size: 20px;
     }
 
     ul{
-        text-align: left;
-        font-size: 1rem;
+      display: inline-block;
+      font-size: 1rem;
     }
 
-    div {
-
+    ul>li{
+      margin: 0 auto 10px auto;
+      line-height: 1.6;
     }
-    .responsive-img {
+    #responsive-img {
             display: flex;
             max-width: 100%;
             height: auto;
             align-content: center;
         }
-    img {
-        width: 600px;
+    #img-div {
+        display: flex;
+        max-width: 100%;
+        height: auto;
+        align-self: center;
+        background-color: white;
     }
